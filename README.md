@@ -1,1 +1,1 @@
-Lading page - using flex
+Landing page - using flex
