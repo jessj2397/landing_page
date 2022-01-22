@@ -1,0 +1,154 @@
+.header, .footer {
+    background-color: #1F2937;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;  
+}
+
+.left-section {
+    width: 500px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 400px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+li {
+    padding: 15px 0px 15px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.not-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 400px;
+}
+
+.main-img {
+    width: 500px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 5px 400px;
+    
+}
+
+.country {
+    width: 150px;
+    text-align: center;
+    padding: 0px 25px;
+}
+
+.countries img {
+    max-width: 150px;
+}
+.countries img:hover {
+    opacity: 80%;
+}
+.third-section {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+    padding: 50px 500px;
+}
+
+figcaption {
+    font-size: 20px;
+    text-align: right;
+}
+
+.bubble {
+    background-color: #3882f6;
+    margin: 50px 400px;
+    border-radius: 10px; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 10px;
+    border: 2px solid #3882f6;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+h6 {
+    text-align: center;
+}
+
+.left-bubble {
+    padding: 30px 0px;
+    color: #e5e7eb;
+}
+
+h3 {
+    margin: auto 0px 0px 0px;
+}
+
+.left-bubble p {
+    margin: 0px;
+}
+
+.bubble-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 10px;
+    border: 2px solid #f9faf8;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 10px;
+}
